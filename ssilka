@@ -1,2 +1,16 @@
-https://git-scm.com/book/ru/v2/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-C%3A-%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-Git-%D0%9A%D0%BB%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B8-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B5%D0%B2
-https://git-scm.com/book/ru/v2/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-C%3A-%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-Git-%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B
+<nav class="py-2 bg-body-tertiary border-bottom">
+    <div class="container d-flex flex-wrap">
+      <ul class="nav me-auto">
+        <li class="nav-item"><a href="/" class="nav-link link-body-emphasis px-2 active" aria-current="page">Главная</a></li>
+        <li class="nav-item"><a href="/Users" class="nav-link link-body-emphasis px-2">Пользователи</a></li>
+        <li class="nav-item"><a href="/Games" class="nav-link link-body-emphasis px-2">Игры</a></li>
+        <li class="nav-item"><a href="/Achievements" class="nav-link link-body-emphasis px-2">Достижения</a></li>
+      </ul>
+      <ul class="nav">
+        <li class="nav-item"><a href="{{ url_for('login_page') }}" class="nav-link link-body-emphasis px-2">Войти</a></li>
+        <li class="nav-item"><a href="{{ url_for('register') }}" class="nav-link link-body-emphasis px-2">Зарегистрироваться</a></li>
+      </ul>
+    </div>
+  </nav>
+<br>
+<br>
